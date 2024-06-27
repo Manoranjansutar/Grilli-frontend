@@ -1,0 +1,158 @@
+.animation-div h3{
+    font-size: 100px;
+}
+
+@media (max-width: 991px) {
+    .animation-div  h3{
+        font-size: 60px;
+    }
+    .animation-div .main-btn{
+        padding: 10px 20px ;
+        font-size: 8px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .animation-div  h3{
+        font-size: 40px;
+    }
+    .animation-div .main-btn{
+        padding: 8px 20px ;
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 576) {
+
+    .animation-div p{
+        font-size: 10px;
+    }
+    .animation-div  h3{
+        font-size: 25px;
+    }
+    .animation-div h6{
+        font-size: 10px;
+    }
+    .animation-div .main-btn{
+        border : 3px solid hsl(38, 61%, 73%);
+        background: transparent;
+        padding: 5px 20px ;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 8px;
+    }
+    .shape7{
+        display: none;
+    }
+    /* .resp-container{
+        margin-left: 3000px;
+    } */
+    .resp-container2{
+        flex-direction: column;
+    }
+    .dnone{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 414px) {
+
+    .animation-div p{
+        font-size: 8px;
+    }
+    .animation-div  h3{
+        font-size: 18px;
+    }
+    .animation-div h6{
+        font-size: 8px;
+    }
+    .animation-div .main-btn{
+        border : 3px solid hsl(38, 61%, 73%);
+        background: transparent;
+        padding: 5px 10px ;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 8px;
+    }
+    .img-move5{
+        left:100%;
+        animation: upDown 2s ease infinite;
+        position: absolute;
+        top: 30%;
+    }
+    .shape7{
+        display: none;
+    }
+    .resp-container{
+        margin-left: 300px;
+    }
+    .resp-container h1{
+        font-size: 40px;
+    }
+    .resp-container p{
+        width: 250px;
+    }
+    .resp-container2{
+        flex-direction: column;
+    }
+    .dnone{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    }
+    .footer .footer-middle{
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute; */
+    margin-right: 210px;
+    gap: 60px;
+    }
+    .fooditem-responsive {
+        margin: 0 auto;
+    }
+    .category{
+        overflow-x: scroll;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;
+      }
+
+      .about1{
+        width: 200px !important;
+      }
+      .about2{
+        height: 150px !important;
+      }
+    .experience{
+        flex-direction: column;
+        align-items: start;
+    }
+    .recipebook img{
+        width: 100%;
+    }
+    .blog-heading{
+        font-size: 30px !important;
+        margin-top: 20px !important;
+    }
+   
+    
+    
+
+   
+}
